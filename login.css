@@ -148,7 +148,7 @@ form .text-field{
 .sg:hover{
     color: aliceblue;
     background-color: #0833ab;
-    padding: 12px 16px;
+    padding: 9px 16px;
     transition: .4s all;
     border-radius: 20px;
     top: -6px;
