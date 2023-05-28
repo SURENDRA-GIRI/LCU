@@ -8,7 +8,7 @@ body{
     background-size: 1500px 800px;
     background-repeat: no-repeat;
 }
-center{
+.center{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -79,7 +79,10 @@ form .text-field{
     margin:-5px 0 20px 5px;
     color: rgb(12, 43, 178);
     cursor: pointer;
-    font-family: Montserrat;
+    font-family: Montserrat; 
+    display: flex;
+    justify-content: center;
+
 }
 .password:hover{
     text-decoration: underline;
@@ -137,6 +140,10 @@ form .text-field{
     right: 0;
     bottom: 0;
     font-family: Montserrat;
+    outline: none;
+    display: flex;
+    justify-content: center;
+
 }
 .sg:hover{
     background-color: #2980b9;
